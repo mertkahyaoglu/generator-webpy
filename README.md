@@ -1,4 +1,4 @@
-generator-phaser
+generator-webpy
 =================
 
 A [Yeoman](http://yeoman.io/) generator for [Webpy](http://webpy.org/).
