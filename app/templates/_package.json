@@ -1,0 +1,11 @@
+{
+  "name": "<%= _.slugify(projectName) %>",
+  "author": "",
+  "description": "",
+  "readme": "",
+  "repository": "",
+  "version": "0.0.0",
+  "readme": "",
+  "repository": "",
+  "dependencies": {}
+}

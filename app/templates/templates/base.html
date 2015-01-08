@@ -1,0 +1,11 @@
+$def with (content)
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title><%= _.slugify(projectName) %></title>
+</head>
+<body>
+  $:content
+</body>
+</html>

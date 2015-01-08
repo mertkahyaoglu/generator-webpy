@@ -1,0 +1,43 @@
+{
+  "name": "generator-webpy",
+  "version": "0.1.0",
+  "description": "Webpy generator",
+  "keywords": [
+    "yeoman-generator",
+    "webpy"
+  ],
+  "homepage": "https://github.com/mertkahyaoglu/generator-webpy",
+  "bugs": "https://github.com/mertkahyaoglu/generator-webpy/issues",
+  "author": {
+    "name": "Mert Kahyaoğlu",
+    "email": "mertkahyaoglu93@gmail.com",
+    "url": "https://github.com/mertkahyaoglu"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mertkahyaoglu/generator-webpy.git"
+  },
+  "files": [
+    "app"
+  ],
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "dependencies": {
+    "yeoman-generator": "^0.17.7",
+    "chalk": "~0.4.0",
+    "yosay": "^0.2.0"
+  }
+}
