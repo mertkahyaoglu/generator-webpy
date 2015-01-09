@@ -19,7 +19,6 @@ var Generator = module.exports = function Generator(args, options) {
 
 util.inherits(Generator, yeoman.generators.Base);
 
-
 Generator.prototype.welcome = function welcome() {
   this.log(yosay('Let\'s create a Web.py project!'));
 };
@@ -69,6 +68,4 @@ Generator.prototype.projectFiles = function projectFiles() {
   this.template('templates/index.html', 'templates/index.html');
   this.template('templates/base.html', 'templates/base.html');
   this.copy('gitignore', '.gitignore');
-
-
 };
