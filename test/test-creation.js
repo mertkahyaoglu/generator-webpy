@@ -17,13 +17,13 @@ describe('webpy generator', function () {
     }.bind(this));
   });
 
-  it('creates expected files', function (done) {
+  it('should create expected files', function (done) {
     var expected = [
     'static',
     'templates',
     'web',
     'project.py',
-    'templates/index.html',
+    'templates',
     '.gitignore',
     ];
 

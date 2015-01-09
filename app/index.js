@@ -35,7 +35,7 @@ Generator.prototype.askFor = function askFor() {
   {
     type: 'input',
     name: 'url',
-    message: 'Enter the project url please.',
+    message: 'What\'s the project host url?',
     default: '127.0.0.1'
   },
   {
@@ -58,7 +58,9 @@ Generator.prototype.projectFiles = function projectFiles() {
   this.log(chalk.cyan('--- Creating project files ---'));
   this.mkdir('static');
   this.mkdir('static/css');
+  this.copy('static/css/main.css', 'static/css/main.css');
   this.mkdir('static/js');
+  this.copy('static/js/main.js', 'static/js/main.js');
   this.mkdir('static/img');
   this.mkdir('static/fonts');
   this.mkdir('templates');
